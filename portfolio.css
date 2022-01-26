@@ -1,4 +1,30 @@
-html {
+body { 
     color: white;
     background-color: black;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+  }
+
+header {
+    max-width: 800px;
+    text-align: center;
+}
+
+#allContent {
+    width: 800px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headLogo {
+    position: absolute;
+    margin-left: 10px;
+}
+
+#fio {
+    position: absolute;
+    margin-left: 50px;
 }
