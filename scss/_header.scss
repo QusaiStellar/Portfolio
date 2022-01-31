@@ -3,20 +3,37 @@
    background: #2d2d2d;
    backdrop-filter: blur(20px);
    color: #dedede;
-   .header_container {
+   height: 80px;
+   position: fixed;
+   width: 100%;
+   .header__container {
+      position: relative;
       max-width: 1248px;
       margin: 0 auto;
-      .menu {
-         height: 80px;
-         .logo {
+      height: 100%;
+      .logo {
+         span {
+            display: inline-block;
+            position: absolute;
+            top: 30px;
             left: 0;
+            text-transform: uppercase;
+            padding: 0px 0px 0px 20px;
          }
+      }
+      .menu {
          ul {
+            display: inline-block;
+            position: absolute;
             right: 0;
+            top: 30px;
             li {
                display: inline-block;
                text-transform: uppercase;
-               right: 0;
+               padding: 0px 0px 0px 15px;
+               &:last-child {
+                  padding: 0px 20px 0px 15px;
+               }
                a {
                   color: inherit;
                }
