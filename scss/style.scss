@@ -6,8 +6,9 @@ body {
    font-size: 18px;
    font-weight: 700;
    margin: 0 auto;
-   .main {
-   }
+   background-color: #202020;
+   color: #dedede;
 }
 
 @import "_header.scss";
+@import "_main.scss";

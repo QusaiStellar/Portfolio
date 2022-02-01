@@ -1,44 +1,30 @@
+.container {
+   max-width: 1248px;
+   margin: 0 auto;
+   height: 100%;
+}
 .header {
-   font-size: 18px;
-   background: #2d2d2d;
-   backdrop-filter: blur(20px);
-   color: #dedede;
+   background-color: #2d2d2d;
    height: 80px;
-   position: fixed;
-   width: 100%;
-   .header__container {
-      position: relative;
-      max-width: 1248px;
-      margin: 0 auto;
+   color: #dedede;
+   .headcontent {
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       height: 100%;
-      .logo {
-         span {
-            display: inline-block;
-            position: absolute;
-            top: 30px;
-            left: 0;
-            text-transform: uppercase;
-            padding: 0px 0px 0px 20px;
-         }
+      .headcontent-logo {
+         font-weight: 800;
+         font-size: 20px;
+         padding: 0px 0px 0px 20px;
+         letter-spacing: -0.5px;
       }
-      .menu {
-         ul {
-            display: inline-block;
-            position: absolute;
-            right: 0;
-            top: 30px;
-            li {
-               display: inline-block;
-               text-transform: uppercase;
-               padding: 0px 0px 0px 15px;
-               &:last-child {
-                  padding: 0px 20px 0px 15px;
-               }
-               a {
-                  color: inherit;
-               }
-            }
+      .headcontent-menu {
+         a {
+            padding: 0px 20px 0px 20px;
+            color: inherit;
          }
       }
    }
 }
+
