@@ -310,6 +310,11 @@ body {
       -ms-flex: 1 1 80%;
           flex: 1 1 80%;
   text-align: left;
+  color: #959595;
+}
+
+.footer .footer-block .footer-madeby span {
+  color: #ececec;
 }
 
 .footer .footer-block .footer-social {
@@ -323,9 +328,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .footer .footer-block .footer-social .social-block .social-item {

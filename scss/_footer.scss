@@ -11,13 +11,17 @@
       .footer-madeby {
          flex: 1 1 80%;
          text-align: left;
+         color: #959595;
+         span {
+            color: #ececec;
+         }
       }
       .footer-social {
          flex: 0 0 20%;
          text-align: right;
          .social-block {
             display: flex;
-            justify-content: space-between;
+            justify-content: end;
             .social-item {
                margin: 0 0 0 20px;
             }
