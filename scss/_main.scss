@@ -1,8 +1,9 @@
 .main {
+   padding: 0 20px 0 20px;
    color: #dedede;
    .name {
       &-bio {
-         height: 554px;
+         margin: 50px 0 0 0;
          display: flex;
          justify-content: space-between;
          align-items: center;
@@ -10,21 +11,19 @@
          .text {
             letter-spacing: -0.5px;
             flex: 0 1 50%;
-            padding: 0 20px;
             .title {
                font-size: 54px;
                line-height: 119%;
             }
             .subtitle {
-               padding: 20px 0 20px 0;
+               padding: 20px 0;
                font-size: 20px;
                line-height: 150%;
                color: #959595;
             }
          }
          .avatar {
-            padding: 0 20px;
-            flex: 0 0 50%;
+            flex: 0 1 50%;
             img {
                display: block;
                margin: 0 auto;
@@ -34,7 +33,6 @@
       }
    }
    .e-mail {
-      padding: 0px 0px 0px 20px;
       a {
          display: inline-block;
          font-weight: 800;
@@ -63,7 +61,6 @@
       letter-spacing: 1.5px;
       text-transform: uppercase;
       margin: 145px 0 0 0;
-      padding: 0 0 0 20px;
       a {
          span {
             color: #dedede;
@@ -81,8 +78,6 @@
    }
    .projects {
       margin: 100px 0 0 0;
-      padding: 0 20px;
-
       text-align: center;
       .projects-block {
          display: inline-flex;
@@ -96,6 +91,27 @@
                height: 100%;
                border-radius: 10px;
             }
+         }
+      }
+   }
+   .contact {
+      margin: 120px 0 124px 0;
+      .contact-block {
+         text-align: center;
+         .contact-title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 49px;
+            letter-spacing: -0.5px;
+         }
+         .contact-subtitle {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 38px;
+            letter-spacing: -0.5px;
+            max-width: 480px;
+            margin: 24px auto 48px;
+            color: #959595;
          }
       }
    }

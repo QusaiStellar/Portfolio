@@ -1,0 +1,27 @@
+.footer {
+   height: 120px;
+   border-top: solid 1px #696969;
+   background-color: #2d2d2d;
+   .footer-block {
+      padding: 0 20px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .footer-madeby {
+         flex: 1 1 80%;
+         text-align: left;
+      }
+      .footer-social {
+         flex: 0 0 20%;
+         text-align: right;
+         .social-block {
+            display: flex;
+            justify-content: space-between;
+            .social-item {
+               margin: 0 0 0 20px;
+            }
+         }
+      }
+   }
+}
