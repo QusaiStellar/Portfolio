@@ -154,6 +154,16 @@ body {
   font-size: 20px;
 }
 
+@media (max-width: 1279.98px) {
+  .main .name-bio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 0 50px 0;
+  }
+}
+
 .main .name-bio .text {
   letter-spacing: -0.5px;
   -webkit-box-flex: 0;
@@ -181,6 +191,7 @@ body {
 }
 
 .main .name-bio .avatar img {
+  width: 100%;
   border-radius: 50%;
 }
 

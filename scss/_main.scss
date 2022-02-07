@@ -8,6 +8,10 @@
          justify-content: space-between;
          align-items: center;
          font-size: 20px;
+         @media (max-width: 1279.98px) {
+            flex-direction: column;
+            padding: 0 0 50px 0;
+         }
          .text {
             letter-spacing: -0.5px;
             flex: 0 1 50%;
@@ -26,6 +30,7 @@
             flex: 1 1 50%;
             text-align: center;
             img {
+               width: 100%;
                border-radius: 50%;
             }
          }
