@@ -140,6 +140,16 @@ body {
   color: #dedede;
 }
 
+@media (max-width: 767.98px) {
+  .main .name-bio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 0 50px 0;
+  }
+}
+
 .main .name-bio {
   margin: 50px 0 0 0;
   display: -webkit-box;
@@ -152,16 +162,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 20px;
-}
-
-@media (max-width: 1279.98px) {
-  .main .name-bio {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 0 0 50px 0;
-  }
 }
 
 .main .name-bio .text {
@@ -191,7 +191,6 @@ body {
 }
 
 .main .name-bio .avatar img {
-  width: 100%;
   border-radius: 50%;
 }
 
